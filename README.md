@@ -92,3 +92,6 @@ Tables
   https://devcenter.heroku.com/articles/cli-style-guide
   Heroku's CLI Style Guide
 
+- **CLI State Machines**
+  https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f
+  My little thoughts on state management
