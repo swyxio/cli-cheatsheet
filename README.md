@@ -90,7 +90,7 @@ Tables
 
 - **Heroku CLI Style Guide**  
   https://devcenter.heroku.com/articles/cli-style-guide
-  Heroku's CLI Style Guide
+  Heroku's CLI Style Guide. [Talk version here](https://www.youtube.com/watch?v=PHiDG-_XoRk)
 
 - **CLI State Machines**
   https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f
