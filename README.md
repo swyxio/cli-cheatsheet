@@ -19,14 +19,43 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ## Utility Libraries
 
-### Prompting
+### Context/Configuration
+
+- https://github.com/npm/node-which Like running `which`: Find the first instance of an executable in the PATH.
+- https://github.com/szwacz/fs-jetpack filesystem access
+- https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module
+
+### 🌟Input
 
 - http://npm.im/enquirer (recommended)
 - http://npm.im/inquirer
 - https://npm.im/prompts
 - http://npm.im/email-prompt
 
-### {Color, Box, Table} Output
+### Argument Parsing
+
+- http://npm.im/meow
+- http://npm.im/arg
+- https://npm.im/yargs
+
+> ⚠️ Your framework may come with parsing built in
+
+### Command execution
+
+- https://github.com/IndigoUnited/node-cross-spawn
+- https://www.npmjs.com/package/execa
+
+### Spinners
+
+- http://npm.im/ora (recommended)
+- https://www.npmjs.com/package/cli-ux#cliaction
+
+### Templating
+
+- https://www.npmjs.com/package/consolidate
+- https://www.npmjs.com/package/ejs (Gluegun has this built in)
+
+### 🌟Output
 
 **Coloring**
 
@@ -42,21 +71,6 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://www.npmjs.com/package/cli-table
 - https://www.npmjs.com/package/cli-ux#clitable
-
-### Spinners
-
-- http://npm.im/ora (recommended)
-- https://www.npmjs.com/package/cli-ux#cliaction
-
-### Argument Parsing
-
-- http://npm.im/meow
-- http://npm.im/arg
-- https://npm.im/yargs
-
-### Command execution
-
-- https://www.npmjs.com/package/execa
 
 ### Plugin/Release Management
 
