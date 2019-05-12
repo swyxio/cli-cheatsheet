@@ -3,39 +3,19 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ## CLI Design Thinking
 
-- **12 Factor CLI Apps**  
-  https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46
-  Jeff Dickey's list of requirements for UX. [Talk version here](https://www.youtube.com/watch?v=Izx3-KSuaM8).
+- **12 Factor CLI Apps** ([Blogpost](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46), [Talk](https://www.youtube.com/watch?v=Izx3-KSuaM8)): Jeff Dickey's list of requirements for UX.
 
-- **Heroku CLI Style Guide**  
-  https://devcenter.heroku.com/articles/cli-style-guide
-  Heroku's CLI Style Guide. [Talk version here](https://www.youtube.com/watch?v=PHiDG-_XoRk) and [here](https://www.youtube.com/watch?v=a6ud5MkVN_s)
+- **Heroku CLI Style Guide** ([Guide](https://devcenter.heroku.com/articles/cli-style-guide), [Talk](https://www.youtube.com/watch?v=PHiDG-_XoRk), [Talk](https://www.youtube.com/watch?v=a6ud5MkVN_s)): Heroku's CLI Style Guide. 
 
-- **CLI State Machines**
-  https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f
-  My little thoughts on state management
+- **CLI State Machines** ([Gist](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)): My little thoughts on state management
   
 ## Frameworks
 
-- **Commander**  
-  https://github.com/tj/commander.js/
-  Built by TJ, used in `create-react-app`, `vue-cli`, and many others. Key feature: pluggability.
-  
-- **Oclif**  
-  https://github.com/oclif/oclif
-  Built by Heroku, used in [Heroku](https://github.com/heroku/cli) and [Salesforce](https://developer.salesforce.com/tools/sfdxcli) CLI's. Key feature: pluggability.
-  
-- **Sade**  
-  https://github.com/lukeed/sade
-  Built by lukeed, used in [tsdx](https://github.com/palmerhq/tsdx). Key feature: lightweight?
-  
-- **Gluegun**  
-  https://github.com/infinitered/gluegun
-  Built by Infinite Red, used in [Ignite](https://github.com/infinitered/ignite) and [AWS Amplify](https://github.com/aws-amplify/amplify-cli). Key feature: templating/filesystem
-  
-- **Ink**
-  https://github.com/vadimdemedes/ink
-  Built by Vadim & Sindre. Key Feature: React Components and Yoga Layout.
+- [**Commander**](https://github.com/tj/commander.js/): Built by TJ, used in `create-react-app`, `vue-cli`, and many others. Key feature: pluggability.
+- [**Oclif**](https://github.com/oclif/oclif): Built by Heroku, used in [Heroku](https://github.com/heroku/cli) and [Salesforce](https://developer.salesforce.com/tools/sfdxcli) CLI's. Key feature: pluggability.
+- [**Sade**](https://github.com/lukeed/sade): Built by lukeed, used in [tsdx](https://github.com/palmerhq/tsdx). Key feature: lightweight?
+- [**Gluegun**](https://github.com/infinitered/gluegun): Built by Infinite Red, used in [Ignite](https://github.com/infinitered/ignite) and [AWS Amplify](https://github.com/aws-amplify/amplify-cli). Key feature: templating/filesystem
+- [**Ink**](https://github.com/vadimdemedes/ink): Built by Vadim & Sindre. Key Feature: React Components and Yoga Layout.
 
 ## Utility Libraries
 
@@ -48,17 +28,17 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### {Color, Box, Table} Output
 
-Coloring
+**Coloring**
 
 - http://npm.im/chalk (recommended)
 - https://npm.im/kleur
 
-Boxing
+**Boxing**
 
 - http://npm.im/boxen
 - https://www.npmjs.com/package/sign-bunny
 
-Tables
+**Tables**
 
 - https://www.npmjs.com/package/cli-table
 - https://www.npmjs.com/package/cli-ux#clitable
