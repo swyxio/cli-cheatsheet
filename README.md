@@ -55,6 +55,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://www.npmjs.com/package/consolidate
 - https://www.npmjs.com/package/ejs (Gluegun has this built in)
+- https://github.com/amwmedia/plop
 
 ### 🌟Output
 
