@@ -38,13 +38,25 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### {Color, Box, Table} Output
 
+Coloring
+
 - http://npm.im/chalk (recommended)
-- http://npm.im/boxen
 - https://npm.im/kleur
+
+Boxing
+
+- http://npm.im/boxen
+- https://www.npmjs.com/package/sign-bunny
+
+Tables
+
+- https://www.npmjs.com/package/cli-table
+- https://www.npmjs.com/package/cli-ux#clitable
 
 ### Spinners
 
 - http://npm.im/ora (recommended)
+- https://www.npmjs.com/package/cli-ux#cliaction
 
 ### Argument Parsing
 
@@ -68,6 +80,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - http://npm.im/stmux for `tmux` like UI
 - http://npm.im/listr for progress lists
+- https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
 
 ## CLI Design Thinking
 
