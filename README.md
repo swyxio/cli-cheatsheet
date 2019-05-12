@@ -1,10 +1,20 @@
 # cli-cheatsheet
 helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs](https://github.com/agarrharr/awesome-cli-apps).
 
-## Beginner Tutorials
+## CLI Design Thinking
 
-- https://www.twilio.com/blog/how-to-build-a-cli-with-node-js
+- **12 Factor CLI Apps**  
+  https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46
+  Jeff Dickey's list of requirements for UX. [Talk version here](https://www.youtube.com/watch?v=Izx3-KSuaM8).
 
+- **Heroku CLI Style Guide**  
+  https://devcenter.heroku.com/articles/cli-style-guide
+  Heroku's CLI Style Guide. [Talk version here](https://www.youtube.com/watch?v=PHiDG-_XoRk) and [here](https://www.youtube.com/watch?v=a6ud5MkVN_s)
+
+- **CLI State Machines**
+  https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f
+  My little thoughts on state management
+  
 ## Frameworks
 
 - **Commander**  
@@ -82,16 +92,7 @@ Tables
 - http://npm.im/listr for progress lists
 - https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
 
-## CLI Design Thinking
 
-- **12 Factor CLI Apps**  
-  https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46
-  Jeff Dickey's list of requirements for UX. [Talk version here](https://www.youtube.com/watch?v=Izx3-KSuaM8).
+## Beginner Tutorials
 
-- **Heroku CLI Style Guide**  
-  https://devcenter.heroku.com/articles/cli-style-guide
-  Heroku's CLI Style Guide. [Talk version here](https://www.youtube.com/watch?v=PHiDG-_XoRk)
-
-- **CLI State Machines**
-  https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f
-  My little thoughts on state management
+- https://www.twilio.com/blog/how-to-build-a-cli-with-node-js
