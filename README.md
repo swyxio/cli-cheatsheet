@@ -29,15 +29,16 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### 🌟Input
 
-- http://npm.im/enquirer (recommended)
-- http://npm.im/inquirer
+- https://npm.im/enquirer (recommended)
+- https://npm.im/inquirer
 - https://npm.im/prompts
-- http://npm.im/email-prompt
+- https://npm.im/email-prompt
 
 ### Argument Parsing
 
-- http://npm.im/meow
-- http://npm.im/arg
+- https://npm.im/meow
+- https://npm.im/arg
+- https://npm.im/args
 
 > ⚠️ Your framework may come with parsing built in
 
@@ -48,7 +49,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### Spinners
 
-- http://npm.im/ora (recommended)
+- https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
 
 ### Templating
@@ -61,12 +62,12 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 **Coloring**
 
-- http://npm.im/chalk (recommended)
+- https://npm.im/chalk (recommended)
 - https://npm.im/kleur
 
 **Boxing**
 
-- http://npm.im/boxen
+- https://npm.im/boxen
 - https://www.npmjs.com/package/sign-bunny
 
 **Tables**
@@ -84,8 +85,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### Misc
 
-- http://npm.im/stmux for `tmux` like UI
-- http://npm.im/listr for progress lists
+- https://npm.im/stmux for `tmux` like UI
+- https://npm.im/listr for progress lists
 - https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
 
 
