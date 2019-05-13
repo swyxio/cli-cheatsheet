@@ -12,7 +12,6 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 ## Frameworks
 
 - [**Commander**](https://github.com/tj/commander.js/): Built by TJ, used in `create-react-app`, `vue-cli`, and many others. Key feature: pluggability.
-- [**Yargs**](https://github.com/yargs/yargs): the modern, pirate-themed successor to optimist. Key feature: not sure.
 - [**Oclif**](https://github.com/oclif/oclif): Built by Heroku, used in [Heroku](https://github.com/heroku/cli) and [Salesforce](https://developer.salesforce.com/tools/sfdxcli) CLI's. Key feature: pluggability.
 - [**Sade**](https://github.com/lukeed/sade): Built by lukeed, used in [tsdx](https://github.com/palmerhq/tsdx). Key feature: lightweight?
 - [**Gluegun**](https://github.com/infinitered/gluegun): Built by Infinite Red, used in [Ignite](https://github.com/infinitered/ignite) and [AWS Amplify](https://github.com/aws-amplify/amplify-cli). Key feature: templating/filesystem
@@ -29,15 +28,16 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### 🌟Input
 
-- http://npm.im/enquirer (recommended)
-- http://npm.im/inquirer
+- https://npm.im/enquirer (recommended)
+- https://npm.im/inquirer
 - https://npm.im/prompts
-- http://npm.im/email-prompt
+- https://npm.im/email-prompt
 
 ### Argument Parsing
 
-- http://npm.im/meow
-- http://npm.im/arg
+- https://npm.im/meow
+- https://npm.im/arg
+- https://npm.im/args
 
 > ⚠️ Your framework may come with parsing built in
 
@@ -48,7 +48,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### Spinners
 
-- http://npm.im/ora (recommended)
+- https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
 
 ### Templating
@@ -61,12 +61,12 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 **Coloring**
 
-- http://npm.im/chalk (recommended)
+- https://npm.im/chalk (recommended)
 - https://npm.im/kleur
 
 **Boxing**
 
-- http://npm.im/boxen
+- https://npm.im/boxen
 - https://www.npmjs.com/package/sign-bunny
 
 **Tables**
@@ -84,8 +84,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### Misc
 
-- http://npm.im/stmux for `tmux` like UI
-- http://npm.im/listr for progress lists
+- https://npm.im/stmux for `tmux` like UI
+- https://npm.im/listr for progress lists
 - https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
 
 
