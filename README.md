@@ -33,8 +33,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 **Loading/Storing config**
 
-- https://github.com/sindresorhus/conf extremely simple config storing (maybe try [conf-cli](https://github.com/natzcam/conf-cli) to manipulate if needed)
-- https://github.com/yeoman/configstore the predecessor of conf
+- https://github.com/sindresorhus/conf simple config storing (maybe try [conf-cli](https://github.com/natzcam/conf-cli) to manipulate if needed) the successor to [configstore](https://github.com/sindresorhus/conf#how-is-this-different-from-configstore)
 - https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module
 
 ### 🌟Input
