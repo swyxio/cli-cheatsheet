@@ -24,11 +24,12 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://github.com/yeoman/update-notifier#readme
 
-### Context/Configuration
+### Determining Context/Storing Config
 
 - https://github.com/npm/node-which Like running `which`: Find the first instance of an executable in the PATH.
 - https://github.com/szwacz/fs-jetpack filesystem access
 - https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module
+- https://github.com/sindresorhus/conf extremely simple config storing (maybe try [conf-cli](https://github.com/natzcam/conf-cli) to manipulate if needed)
 
 ### 🌟Input
 
