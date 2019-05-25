@@ -30,6 +30,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://github.com/npm/node-which Like running `which`: Find the first instance of an executable in the PATH.
 - https://github.com/szwacz/fs-jetpack filesystem access
+- https://github.com/sindresorhus/find-up search up the parents path for where files are located
 
 **Loading/Storing config**
 
