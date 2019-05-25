@@ -79,6 +79,10 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://www.npmjs.com/package/cli-table
 - https://www.npmjs.com/package/cli-ux#clitable
 
+**Debug Logging*
+
+- https://www.npmjs.com/package/debug
+
 ### Plugin/Release Management
 
 - https://www.npmjs.com/package/live-plugin-manager
