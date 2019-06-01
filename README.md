@@ -80,6 +80,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://npm.im/chalk (recommended)
 - https://npm.im/kleur
+- https://npm.im/cfonts
 
 **Boxing**
 
