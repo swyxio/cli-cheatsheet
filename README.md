@@ -65,6 +65,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
+- http://npm.im/log-update
 
 ### Templating
 
