@@ -93,6 +93,10 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://www.npmjs.com/package/cli-table
 - https://www.npmjs.com/package/cli-ux#clitable
 
+**Banners**
+
+- https://github.com/patorjk/figlet.js
+
 **Debug Logging*
 
 - https://www.npmjs.com/package/debug
