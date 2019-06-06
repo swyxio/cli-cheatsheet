@@ -17,6 +17,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - [**Gluegun**](https://github.com/infinitered/gluegun): Built by Infinite Red, used in [Ignite](https://github.com/infinitered/ignite) and [AWS Amplify](https://github.com/aws-amplify/amplify-cli). Key feature: templating/filesystem
 - [**Ink**](https://github.com/vadimdemedes/ink): Built by Vadim & Sindre. Key Feature: React Components and Yoga Layout.
 - [**Scritch**](https://github.com/jamiebuilds/scritch): Built by Jamie, used at Eventbrite. Key Feature: compose multiple scripts regardless of language into one CLI.
+- [**Yargs**](https://github.com/yargs/yargs): Built by [bcoe](https://github.com/bcoe), used by `webpack-cli`, `mocha`, `react-native`, `nyc`, and 14,343 other modules.
 
 ## Utility Libraries
 
@@ -51,7 +52,6 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://npm.im/meow
 - https://npm.im/arg
-- https://npm.im/yargs
 - https://npm.im/minimist
 
 > ⚠️ Your framework may come with parsing built in
