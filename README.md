@@ -114,6 +114,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://npm.im/stmux for `tmux` like UI
 - https://npm.im/listr for progress lists
 - https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
+- https://github.com/jeroenouw/cgx Generate all the recommended files (pre-filled) for the Github community standards. (Issue templates, code of conduct, etc)
 
 
 ## Beginner Tutorials
