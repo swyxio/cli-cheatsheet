@@ -101,6 +101,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 **Debug Logging*
 
 - https://www.npmjs.com/package/debug (note that you might not need this, Node's inbuilt [`util.debuglog`](https://nodejs.org/api/util.html#util_util_debuglog_section) does a lot of the same h/t [@stefanjudis](https://twitter.com/stefanjudis/status/1148232306735362056))
+- [React Native CLI has very simple logging](https://github.com/react-native-community/cli/blob/3f116721eb30071b04a2957f8bd02a81954699de/packages/tools/src/logger.ts) with verbose mode you can still with just chalk dependency
 
 ### Plugin/Release Management
 
