@@ -119,6 +119,11 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 > ⚠️ None of these are offline-first. Keen on finding one that respects offline first.
 
+### Dependency installs and Upgrading Scaffolds
+
+- [make dependency installs silent!](https://github.com/react-native-community/cli/pull/292/files#diff-e24c0f8cadacd6e6b19fb64414998d99R78)
+- [`upgrade` command based on git diffs](https://github.com/react-native-community/cli/pull/348)
+
 ### Misc
 
 - https://npm.im/stmux for `tmux` like UI
