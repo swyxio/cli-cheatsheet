@@ -22,6 +22,10 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ## Utility Libraries
 
+### Performance Optimization
+
+- [@babel/plugin-transform-modules-commonjs](https://github.com/react-native-community/cli/pull/152/) ([twitter tip](https://mobile.twitter.com/thymikee/status/1092885415365877760))
+
 ### Update Management/Nagging
 
 - https://github.com/yeoman/update-notifier#readme
