@@ -38,6 +38,10 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://github.com/szwacz/fs-jetpack filesystem access
 - https://github.com/sindresorhus/find-up search up the parents path for where files are located
 
+**Config validation**
+
+- https://github.com/hapijs/joi used by React Native CLI for validation
+
 **Loading/Storing config**
 
 > ⚠️ Be aware of [the XDG spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html). Sindre's libraries use [`env-paths`](https://github.com/sindresorhus/env-paths#pathsconfig) to get paths compliant with this.
