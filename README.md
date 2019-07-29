@@ -132,6 +132,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://github.com/jeroenouw/cgx Generate all the recommended files (pre-filled) for the Github community standards. (Issue templates, code of conduct, etc)
 - https://github.com/zeit/pkg#readme packaging as executable (so no requirement for node or npm)
 - https://github.com/kefranabg/readme-md-generator generate READMEs
+- https://github.com/netlify/netlify-dev-plugin/pull/227/files disable clearing of screen like with React-Scripts
 
 
 ## Beginner Tutorials
