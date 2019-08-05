@@ -8,6 +8,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - **Heroku CLI Style Guide** ([Guide](https://devcenter.heroku.com/articles/cli-style-guide), [Talk](https://www.youtube.com/watch?v=PHiDG-_XoRk), [Talk](https://www.youtube.com/watch?v=a6ud5MkVN_s)): Heroku's CLI Style Guide. 
 
 - **CLI State Machines** ([Gist](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)): My little thoughts on state management
+
+- **Add a dry run mode for expensive commands** like [gatsby dry-run](https://github.com/gatsbyjs/gatsby/issues/16384)
   
 ## Frameworks
 
