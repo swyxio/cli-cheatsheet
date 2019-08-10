@@ -44,12 +44,16 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://github.com/hapijs/joi used by React Native CLI for validation
 
-**Loading/Storing config**
+**Loading config from json, rc file, etc***
+
+- https://github.com/DavidWells/configorama
+- https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module. [Check `searchPaths` to implement XDG spec compliance.](https://github.com/davidtheclark/cosmiconfig/issues/152)
+
+**Loading/Storing config from a persistent store**
 
 > ⚠️ Be aware of [the XDG spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html). Sindre's libraries use [`env-paths`](https://github.com/sindresorhus/env-paths#pathsconfig) to get paths compliant with this.
 
 - https://github.com/sindresorhus/conf simple config storing (maybe try [conf-cli](https://github.com/natzcam/conf-cli) to manipulate if needed) the successor to [configstore](https://github.com/sindresorhus/conf#how-is-this-different-from-configstore)
-- https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module. [Check `searchPaths` to implement XDG spec compliance.](https://github.com/davidtheclark/cosmiconfig/issues/152)
 - https://github.com/jonschlinkert/data-store conf like datastore but in the shclinkerverse
 
 ### 🌟Input
