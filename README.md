@@ -49,6 +49,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://github.com/DavidWells/configorama
 - https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module. [Check `searchPaths` to implement XDG spec compliance.](https://github.com/davidtheclark/cosmiconfig/issues/152)
 
+*don't need but nice to know: https://www.npmjs.com/package/read-package-json*
+
 **Loading/Storing config from a persistent store**
 
 > ⚠️ Be aware of [the XDG spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html). Sindre's libraries use [`env-paths`](https://github.com/sindresorhus/env-paths#pathsconfig) to get paths compliant with this.
@@ -74,7 +76,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 ### Command execution
 
 - https://github.com/IndigoUnited/node-cross-spawn
-- https://www.npmjs.com/package/execa
+- https://www.npmjs.com/package/execa (recommended)
 
 ### Spinners
 
@@ -115,6 +117,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 **Debug Logging*
 
 - https://www.npmjs.com/package/debug (note that you might not need this, Node's inbuilt [`util.debuglog`](https://nodejs.org/api/util.html#util_util_debuglog_section) does a lot of the same h/t [@stefanjudis](https://twitter.com/stefanjudis/status/1148232306735362056))
+- https://github.com/winstonjs/winston
+- https://github.com/trentm/node-bunyan
 - [React Native CLI has very simple logging](https://github.com/react-native-community/cli/blob/3f116721eb30071b04a2957f8bd02a81954699de/packages/tools/src/logger.ts) with verbose mode you can still with just chalk dependency
 
 ### Plugin/Release Management
