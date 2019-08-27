@@ -96,9 +96,11 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 **Coloring**
 
-- https://npm.im/chalk (recommended)
+- https://npm.im/chalk (recommended - also see [Related Packages](https://github.com/chalk/chalk#related))
 - https://npm.im/kleur
 - https://npm.im/cfonts
+
+Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/swyx/status/1166431071711498240) in CI logging.
 
 **Boxing**
 
