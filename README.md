@@ -17,7 +17,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - [**Oclif**](https://github.com/oclif/oclif): Built by Heroku, used in [Heroku](https://github.com/heroku/cli) and [Salesforce](https://developer.salesforce.com/tools/sfdxcli) CLI's. Key feature: pluggability.
 - [**Sade**](https://github.com/lukeed/sade): Built by lukeed, used in [tsdx](https://github.com/palmerhq/tsdx). Key feature: lightweight?
 - [**Gluegun**](https://github.com/infinitered/gluegun): Built by Infinite Red, used in [Ignite](https://github.com/infinitered/ignite) and [AWS Amplify](https://github.com/aws-amplify/amplify-cli). Key feature: templating/filesystem
-- [**Ink**](https://github.com/vadimdemedes/ink): Built by Vadim & Sindre. Key Feature: React Components and Yoga Layout.
+- [**Ink**](https://github.com/vadimdemedes/ink): Built by Vadim & Sindre. Key Feature: React Components and Yoga Layout. See also [import-jsx](https://npm.im/import-jsx)
 - [**Scritch**](https://github.com/jamiebuilds/scritch): Built by Jamie, used at Eventbrite. Key Feature: compose multiple scripts regardless of language into one CLI.
 - [**Yargs**](https://github.com/yargs/yargs): Built by [bcoe](https://github.com/bcoe), used by `webpack-cli`, `mocha`, `react-native`, `nyc`, and 14,343 other modules.
 - [**arg**](https://github.com/zeit/arg): Built by [ZEIT](https://github.com/zeit), used by `now`, `ncc`, `micro`, `serve`, and many others. Key Feature: [tiny](https://packagephobia.now.sh/result?p=arg)
@@ -65,7 +65,11 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://npm.im/prompts
 - https://npm.im/email-prompt
 
-### Argument Parsing
+**Stdin Parsing**
+
+- https://npm.im/get-stdin (eg when you want to receive pipe results `cat mydata.json | mycli`)
+
+**Argument Parsing**
 
 - https://npm.im/meow
 - https://npm.im/arg
@@ -73,18 +77,28 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 > ⚠️ Your framework may come with parsing built in
 
-### Command execution
+**Input/Stdin/Argument Processing**
+
+make sure to also normalize inputted stuff before you compare
+
+- `path.resolve(str1) === path.resolve(str2)`
+- https://npm.im/normalize-url
+- https://github.com/sindresorhus/compare-urls
+
+### 🌟Processing
+
+**Command execution**
 
 - https://github.com/IndigoUnited/node-cross-spawn
 - https://www.npmjs.com/package/execa (recommended)
 
-### Spinners
+**Spinners**
 
 - https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
 - http://npm.im/log-update
 
-### Templating
+**Templating**
 
 - https://www.npmjs.com/package/consolidate
 - https://www.npmjs.com/package/ejs (Gluegun has this built in)
@@ -99,8 +113,13 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://npm.im/chalk (recommended - also see [Related Packages](https://github.com/chalk/chalk#related))
 - https://npm.im/kleur
 - https://npm.im/cfonts
+- https://npm.im/tinycolor2 (some interesting APIs, handy with React Ink)
 
 Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/swyx/status/1166431071711498240) in CI logging.
+
+**PrettyPrinting**
+
+- https://npm.im/pretty-bytes
 
 **Boxing**
 
