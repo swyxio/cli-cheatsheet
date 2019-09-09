@@ -92,6 +92,12 @@ make sure to also normalize inputted stuff before you compare
 - https://github.com/IndigoUnited/node-cross-spawn
 - https://www.npmjs.com/package/execa (recommended)
 
+You'll probably also use these in conjunction with port monitors (e.g. the process you're working with opens a port, like CRA for [Netlify Dev](https://github.com/netlify/netlify-dev-plugin/)):
+
+- https://github.com/Rich-Harris/port-authority#readme
+- https://github.com/mikeal/getport#readme
+- https://github.com/sindresorhus/get-port#readme
+
 **Spinners**
 
 - https://npm.im/ora (recommended)
