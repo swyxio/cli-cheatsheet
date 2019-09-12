@@ -39,6 +39,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://github.com/npm/node-which Like running `which`: Find the first instance of an executable in the PATH.
 - https://github.com/szwacz/fs-jetpack filesystem access
 - https://github.com/sindresorhus/find-up search up the parents path for where files are located
+- https://www.npmjs.com/package/resolve to simulate Node `require.resolve`
+  - https://www.npmjs.com/package/relative generate relative filepaths e.g. `relative('a/b/c', 'a/d') // ../../d`
 
 **Config validation**
 
@@ -74,6 +76,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://npm.im/meow
 - https://npm.im/arg
 - https://npm.im/minimist
+  - https://www.npmjs.com/package/cliclopts
 
 > ⚠️ Your framework may come with parsing built in
 
@@ -111,6 +114,8 @@ You'll probably also use these in conjunction with port monitors (e.g. the proce
 - https://github.com/amwmedia/plop
 - Angular Schematics https://angular.io/guide/schematics
 - Yeoman generator https://yeoman.io/
+- https://www.npmjs.com/package/cpx (copying with watch functionality)
+- https://www.npmjs.com/package/tempy (create unique temp directories)
 
 ### 🌟Output
 
@@ -154,6 +159,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://www.npmjs.com/package/live-plugin-manager
 - https://www.npmjs.com/package/pacote (used in npm cli)
 - https://www.npmjs.com/package/gh-release-fetch (very low level pull from github)
+- https://www.npmjs.com/package/require-package-name (get package names as if local files were modules)
 
 > ⚠️ None of these are offline-first. Keen on finding one that respects offline first.
 
