@@ -120,6 +120,7 @@ You'll probably also use these in conjunction with port monitors (e.g. the proce
 - https://npm.im/kleur
 - https://npm.im/cfonts
 - https://npm.im/tinycolor2 (some interesting APIs, handy with React Ink)
+- https://npm.im/log-symbols (colored xplatform unicode symbols for success/info/warning/error)
 
 Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/swyx/status/1166431071711498240) in CI logging.
 
