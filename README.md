@@ -88,6 +88,12 @@ make sure to also normalize inputted stuff before you compare
 - https://npm.im/normalize-url
 - https://github.com/sindresorhus/compare-urls
 
+**File watching**
+
+- https://www.npmjs.com/package/cpx (copying with watch functionality)
+- https://www.npmjs.com/package/chokidar (recommended)
+- [VSCode's per-platform watchers](https://github.com/Microsoft/vscode/tree/61587049cb6f0801d8f1c6d6a612c7ab71fc7113/src/vs/workbench/services/files/node/watcher)
+
 ### 🌟Processing
 
 **Command execution**
@@ -114,7 +120,6 @@ You'll probably also use these in conjunction with port monitors (e.g. the proce
 - https://github.com/amwmedia/plop
 - Angular Schematics https://angular.io/guide/schematics
 - Yeoman generator https://yeoman.io/
-- https://www.npmjs.com/package/cpx (copying with watch functionality)
 - https://www.npmjs.com/package/tempy (create unique temp directories)
 
 ### 🌟Output
