@@ -103,13 +103,15 @@ make sure to also normalize inputted stuff before you compare
 - https://github.com/IndigoUnited/node-cross-spawn
 - https://www.npmjs.com/package/execa (recommended)
 
-Sometimes processes can spawn processes. This is troublesome for watch/reload features. Kill them all with [`tree-kill`](https://www.npmjs.com/package/tree-kill)
+Sometimes processes can spawn processes. This is troublesome for watch/reload features. Kill them all with [`tree-kill`](https://www.npmjs.com/package/tree-kill).
 
 You'll probably also use these in conjunction with port monitors (e.g. the process you're working with opens a port, like CRA for [Netlify Dev](https://github.com/netlify/netlify-dev-plugin/)):
 
 - https://github.com/Rich-Harris/port-authority#readme
 - https://github.com/mikeal/getport#readme
 - https://github.com/sindresorhus/get-port#readme
+
+If child_processes are going to be a key part of your CLI, be sure to [read the docs](https://nodejs.org/api/child_process.html) and [this guide](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/) to be aware of the API.
 
 **Spinners**
 
