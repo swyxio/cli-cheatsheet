@@ -41,6 +41,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://github.com/sindresorhus/find-up search up the parents path for where files are located
 - https://www.npmjs.com/package/resolve to simulate Node `require.resolve`
   - https://www.npmjs.com/package/relative generate relative filepaths e.g. `relative('a/b/c', 'a/d') // ../../d`
+- if dealing with yarn workspaces: https://www.npmjs.com/package/find-yarn-workspace-root
 
 **Config validation**
 
@@ -126,7 +127,10 @@ If child_processes are going to be a key part of your CLI, be sure to [read the 
 - https://github.com/amwmedia/plop
 - Angular Schematics https://angular.io/guide/schematics
 - Yeoman generator https://yeoman.io/
+
+**Temp folders**
 - https://www.npmjs.com/package/tempy (create unique temp directories)
+- https://www.npmjs.com/package/tmp (very popular. can remove on exit)
 
 ### 🌟Output
 
