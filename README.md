@@ -42,6 +42,17 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - https://www.npmjs.com/package/resolve to simulate Node `require.resolve`
   - https://www.npmjs.com/package/relative generate relative filepaths e.g. `relative('a/b/c', 'a/d') // ../../d`
 - if dealing with yarn workspaces: https://www.npmjs.com/package/find-yarn-workspace-root
+- File watching
+  - https://www.npmjs.com/package/cpx (copying with watch functionality)
+  - https://www.npmjs.com/package/chokidar (recommended)
+  - [Sapper Watcher](https://github.com/sveltejs/sapper/blob/845c54bf8fa470756d5670408a112596a04ba9cc/src/api/dev.ts)
+    - https://www.npmjs.com/package/cheap-watch
+  - [VSCode's per-platform watchers](https://github.com/Microsoft/vscode/tree/61587049cb6f0801d8f1c6d6a612c7ab71fc7113/src/vs/workbench/services/files/node/watcher)
+- File finding
+  - https://www.npmjs.com/package/glob (dominant)
+  - https://www.npmjs.com/package/glob-fs
+  - https://www.npmjs.com/package/file-regex
+
 
 **Config validation**
 
@@ -89,21 +100,6 @@ make sure to also normalize inputted stuff before you compare
 - `path.resolve(str1) === path.resolve(str2)`
 - https://npm.im/normalize-url
 - https://github.com/sindresorhus/compare-urls
-
-**File watching**
-
-- https://www.npmjs.com/package/cpx (copying with watch functionality)
-- https://www.npmjs.com/package/chokidar (recommended)
-- [Sapper Watcher](https://github.com/sveltejs/sapper/blob/845c54bf8fa470756d5670408a112596a04ba9cc/src/api/dev.ts)
-  - https://www.npmjs.com/package/cheap-watch
-- [VSCode's per-platform watchers](https://github.com/Microsoft/vscode/tree/61587049cb6f0801d8f1c6d6a612c7ab71fc7113/src/vs/workbench/services/files/node/watcher)
-
-File finding:
-
-- https://www.npmjs.com/package/glob (dominant)
-- https://www.npmjs.com/package/glob-fs
-- https://www.npmjs.com/package/file-regex
-
 
 ### 🌟Processing
 
