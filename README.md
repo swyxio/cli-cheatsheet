@@ -138,6 +138,11 @@ If child_processes are going to be a key part of your CLI, be sure to [read the 
 
 ### 🌟Output
 
+**Files**
+
+- ensure directory exists: https://stackoverflow.com/questions/13542667/create-directory-when-writing-to-file-in-node-js
+- encrypt files: https://medium.com/@brandonstilson/lets-encrypt-files-with-node-85037bea8c0e
+
 **Coloring**
 
 - https://npm.im/chalk (recommended - also see [Related Packages](https://github.com/chalk/chalk#related))
