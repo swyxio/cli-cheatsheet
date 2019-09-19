@@ -98,6 +98,13 @@ make sure to also normalize inputted stuff before you compare
   - https://www.npmjs.com/package/cheap-watch
 - [VSCode's per-platform watchers](https://github.com/Microsoft/vscode/tree/61587049cb6f0801d8f1c6d6a612c7ab71fc7113/src/vs/workbench/services/files/node/watcher)
 
+File finding:
+
+- https://www.npmjs.com/package/glob (dominant)
+- https://www.npmjs.com/package/glob-fs
+- https://www.npmjs.com/package/file-regex
+
+
 ### 🌟Processing
 
 **Command execution**
