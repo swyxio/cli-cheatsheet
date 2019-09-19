@@ -88,7 +88,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 - https://npm.im/meow
 - https://npm.im/arg
-- https://npm.im/minimist
+- https://npm.im/minimist (hasn't been updated in a while though)
   - https://www.npmjs.com/package/cliclopts
 
 > ⚠️ Your framework may come with parsing built in
