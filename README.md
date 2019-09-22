@@ -129,6 +129,8 @@ If child_processes are going to be a key part of your CLI, be sure to [read the 
 
 - https://www.npmjs.com/package/consolidate
 - https://www.npmjs.com/package/ejs (Gluegun has this built in)
+- Mustache and handlebars https://www.npmjs.com/package/handlebars
+- Liquid templating (from Shopify) https://github.com/Shopify/liquid
 - https://github.com/amwmedia/plop
 - Angular Schematics https://angular.io/guide/schematics
 - Yeoman generator https://yeoman.io/
@@ -160,6 +162,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 
 **Boxing**
 
+- https://www.npmjs.com/package/term-size Get Terminal Size
 - https://npm.im/boxen
 - https://www.npmjs.com/package/sign-bunny
 
