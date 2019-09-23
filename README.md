@@ -109,6 +109,8 @@ make sure to also normalize inputted stuff before you compare
 - https://github.com/IndigoUnited/node-cross-spawn
 - https://www.npmjs.com/package/execa (recommended)
 
+Remember Windows users for cross-platform nodejs ([Guide](https://github.com/ehmicky/cross-platform-node-guide/blob/master/docs/4_terminal/shell.md#cmdexe)). e.g. dont execute pkg.json or shell commands with single quotes instead of escaped double quotes
+
 Sometimes processes can spawn processes. This is troublesome for watch/reload features. Kill them all with [`tree-kill`](https://www.npmjs.com/package/tree-kill).
 
 You'll probably also use these in conjunction with port monitors (e.g. the process you're working with opens a port, like CRA for [Netlify Dev](https://github.com/netlify/netlify-dev-plugin/)):
