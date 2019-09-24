@@ -35,6 +35,15 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 ### Context/Config
 
+**Context from Git/CI**
+
+- https://www.npmjs.com/package/git-repo-info
+- https://www.npmjs.com/package/parse-gitignore
+- https://www.npmjs.com/package/git-remote-origin-url
+- https://www.npmjs.com/package/parse-github-url
+- https://www.npmjs.com/package/ci-info
+- https://www.npmjs.com/package/is-docker
+
 **Context from filesystem/PATH**
 
 - https://github.com/npm/node-which Like running `which`: Find the first instance of an executable in the PATH.
@@ -46,6 +55,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - File watching
   - https://www.npmjs.com/package/cpx (copying with watch functionality)
   - https://www.npmjs.com/package/chokidar (recommended)
+  - https://www.npmjs.com/package/sane
   - [Sapper Watcher](https://github.com/sveltejs/sapper/blob/845c54bf8fa470756d5670408a112596a04ba9cc/src/api/dev.ts)
     - https://www.npmjs.com/package/cheap-watch
   - [VSCode's per-platform watchers](https://github.com/Microsoft/vscode/tree/61587049cb6f0801d8f1c6d6a612c7ab71fc7113/src/vs/workbench/services/files/node/watcher)
@@ -53,6 +63,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
   - https://www.npmjs.com/package/glob (dominant)
   - https://www.npmjs.com/package/glob-fs
   - https://www.npmjs.com/package/file-regex
+- Dependency resolution
+  - https://www.npmjs.com/package/precinct
 
 
 **Config validation**
@@ -77,6 +89,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 ### 🌟Input
 
 - https://npm.im/enquirer (recommended)
+  - combine with https://www.npmjs.com/package/fuzzy for fuzzy matching
 - https://npm.im/inquirer
 - https://npm.im/prompts
 - https://npm.im/email-prompt
@@ -121,16 +134,22 @@ You'll probably also use these in conjunction with port monitors (e.g. the proce
 
 If child_processes are going to be a key part of your CLI, be sure to [read the docs](https://nodejs.org/api/child_process.html) and [this guide](https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a/) to be aware of the API.
 
+You may also want to poll for conditions to be true to execute async processes:
+
+- https://www.npmjs.com/package/p-wait-for
+
 **Spinners**
 
 - https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
 - http://npm.im/log-update
+- https://www.npmjs.com/package/cli-spinners
 
 **Templating**
 
 - https://www.npmjs.com/package/consolidate
 - https://www.npmjs.com/package/ejs (Gluegun has this built in)
+- https://www.npmjs.com/package/pupa (sindresorhus' templating)
 - Mustache and handlebars https://www.npmjs.com/package/handlebars
 - Liquid templating (from Shopify) https://github.com/Shopify/liquid
 - https://github.com/amwmedia/plop
@@ -146,7 +165,9 @@ If child_processes are going to be a key part of your CLI, be sure to [read the 
 **Files**
 
 - ensure directory exists: https://stackoverflow.com/questions/13542667/create-directory-when-writing-to-file-in-node-js
+  - also https://www.npmjs.com/package/make-dir
 - encrypt files: https://medium.com/@brandonstilson/lets-encrypt-files-with-node-85037bea8c0e
+- writing large files: https://www.npmjs.com/package/write-file-atomic
 
 **Coloring**
 
@@ -161,6 +182,8 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 **PrettyPrinting**
 
 - https://npm.im/pretty-bytes
+- https://www.npmjs.com/package/prettyjson
+- https://www.npmjs.com/package/concordance
 
 **Boxing**
 
@@ -172,6 +195,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 
 - https://www.npmjs.com/package/cli-table
 - https://www.npmjs.com/package/cli-ux#clitable
+- https://www.npmjs.com/package/ascii-table
 
 **Banners**
 
@@ -183,6 +207,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://github.com/winstonjs/winston
 - https://github.com/trentm/node-bunyan
 - [React Native CLI has very simple logging](https://github.com/react-native-community/cli/blob/3f116721eb30071b04a2957f8bd02a81954699de/packages/tools/src/logger.ts) with verbose mode you can still with just chalk dependency
+- In Github Issue Templates, tell your users to report versions: https://www.npmjs.com/package/envinfo
 
 ### Plugin/Release Management
 
@@ -208,6 +233,8 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://github.com/kefranabg/readme-md-generator generate READMEs
 - https://github.com/netlify/netlify-dev-plugin/pull/227/files disable clearing of screen like with React-Scripts
 - https://github.com/DanWebb/jdown for parsing a directory of markdown files into json, just wonderful
+- https://www.npmjs.com/package/random-item for randomized selection from a list
+- https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics
 
 
 ## Beginner Tutorials
