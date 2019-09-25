@@ -121,6 +121,10 @@ make sure to also normalize inputted stuff before you compare
 
 - https://github.com/IndigoUnited/node-cross-spawn
 - https://www.npmjs.com/package/execa (recommended)
+  - execa best practices: 
+    - use `preferLocal: true`
+    - try not to mix streams and promises. use `stdio: 'inherit'` to pipe stdout/stderr up
+    - [avoid `shell: true` unless absolutely necessary](https://github.com/sindresorhus/execa#shell)
 
 Remember Windows users for cross-platform nodejs ([Guide](https://github.com/ehmicky/cross-platform-node-guide/blob/master/docs/4_terminal/shell.md#cmdexe)). e.g. dont execute pkg.json or shell commands with single quotes instead of escaped double quotes
 
