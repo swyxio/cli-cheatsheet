@@ -79,6 +79,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 *don't need but nice to know: https://www.npmjs.com/package/read-package-json*
 
+> Beware the race condition when you check if file exists and then open it. the file could be deleted in betwee. instead, just open the file and handle the error if it doesnt exist.
+
 **Loading/Storing config from a persistent store**
 
 > ⚠️ Be aware of [the XDG spec](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html). Sindre's libraries use [`env-paths`](https://github.com/sindresorhus/env-paths#pathsconfig) to get paths compliant with this.
@@ -169,6 +171,7 @@ You may also want to poll for conditions to be true to execute async processes:
 **Files**
 
 - ensure directory exists: https://stackoverflow.com/questions/13542667/create-directory-when-writing-to-file-in-node-js
+  - simple replacement for `fs.existsSync(path.resolve/path.join)` http://npm.im/path-exists
   - also https://www.npmjs.com/package/make-dir
 - encrypt files: https://medium.com/@brandonstilson/lets-encrypt-files-with-node-85037bea8c0e
 - writing large files: https://www.npmjs.com/package/write-file-atomic
