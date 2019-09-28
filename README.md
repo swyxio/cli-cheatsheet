@@ -28,6 +28,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 ### Performance Optimization
 
 - [@babel/plugin-transform-modules-commonjs](https://github.com/react-native-community/cli/pull/152/) ([twitter tip](https://mobile.twitter.com/thymikee/status/1092885415365877760))
+- [@salesforce/lazy-require](https://www.npmjs.com/package/@salesforce/lazy-require)
+- [v8-compile-cache](https://github.com/zertosh/v8-compile-cache)
 
 ### Update Management/Nagging
 
