@@ -39,6 +39,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 
 **Context from Git/CI**
 
+- https://www.npmjs.com/package/env-ci
 - https://www.npmjs.com/package/git-repo-info
 - https://www.npmjs.com/package/parse-gitignore
 - https://www.npmjs.com/package/git-remote-origin-url
