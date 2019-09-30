@@ -31,6 +31,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - [@salesforce/lazy-require](https://www.npmjs.com/package/@salesforce/lazy-require)
 - [v8-compile-cache](https://github.com/zertosh/v8-compile-cache)
 
+For performance logging, you can try `process.htime()` instead of `console.time()` (altho the latter uses the former under the hood)
+
 ### Update Management/Nagging
 
 - https://github.com/yeoman/update-notifier#readme
@@ -179,13 +181,14 @@ You may also want to poll for conditions to be true to execute async processes:
 - encrypt files: https://medium.com/@brandonstilson/lets-encrypt-files-with-node-85037bea8c0e
 - writing large files: https://www.npmjs.com/package/write-file-atomic
 
-**Coloring**
+**Icons & Coloring**
 
 - https://npm.im/chalk (recommended - also see [Related Packages](https://github.com/chalk/chalk#related))
 - https://npm.im/kleur
 - https://npm.im/cfonts
 - https://npm.im/tinycolor2 (some interesting APIs, handy with React Ink)
 - https://npm.im/log-symbols (colored xplatform unicode symbols for success/info/warning/error)
+- https://npm.im/figures (Unicode symbols with Windows CMD fallbacks)
 
 Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/swyx/status/1166431071711498240) in CI logging.
 
