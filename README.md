@@ -248,7 +248,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://github.com/DanWebb/jdown for parsing a directory of markdown files into json, just wonderful
 - https://www.npmjs.com/package/random-item for randomized selection from a list
 - https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics
-
+- https://www.npmjs.com/package/redact-env redact env var secrets
 
 ## Beginner Tutorials
 
