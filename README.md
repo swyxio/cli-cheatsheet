@@ -214,7 +214,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 
 - https://github.com/patorjk/figlet.js
 
-**Debug Logging*
+**Debug Logging**
 
 - https://www.npmjs.com/package/debug (note that you might not need this, Node's inbuilt [`util.debuglog`](https://nodejs.org/api/util.html#util_util_debuglog_section) does a lot of the same h/t [@stefanjudis](https://twitter.com/stefanjudis/status/1148232306735362056))
 - https://github.com/winstonjs/winston
@@ -235,6 +235,14 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 
 - [make dependency installs silent!](https://github.com/react-native-community/cli/pull/292/files#diff-e24c0f8cadacd6e6b19fb64414998d99R78)
 - [`upgrade` command based on git diffs](https://github.com/react-native-community/cli/pull/348)
+- Yarn or NPM detection: http://npm.im/yarn-or-npm
+
+```bash
+import { spawn, hasYarn } from 'yarn-or-npm'
+// optionalDir for installing?
+const prefixFlag = hasYarn() ? '--cwd' : '--prefix'
+spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
+```
 
 ### Misc
 
