@@ -43,6 +43,7 @@ For performance logging, you can try `process.htime()` instead of `console.time(
 
 - https://www.npmjs.com/package/env-ci
 - https://www.npmjs.com/package/git-repo-info
+- http://npm.im/parse-git-config - Parse .git/config into a JavaScript object. sync or async.
 - https://www.npmjs.com/package/parse-gitignore
 - https://www.npmjs.com/package/git-remote-origin-url
 - https://www.npmjs.com/package/parse-github-url
