@@ -163,6 +163,8 @@ You may also want to poll for conditions to be true to execute async processes:
 - https://www.npmjs.com/package/consolidate
 - https://www.npmjs.com/package/ejs (Gluegun has this built in)
 - https://www.npmjs.com/package/pupa (sindresorhus' templating)
+- https://www.npmjs.com/package/replace-string (string replace with multiple matches)
+- https://www.npmjs.com/package/cpy (copy files using streams)
 - Mustache and handlebars https://www.npmjs.com/package/handlebars
 - Liquid templating (from Shopify) https://github.com/Shopify/liquid
 - https://github.com/amwmedia/plop
