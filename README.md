@@ -151,12 +151,13 @@ You may also want to poll for conditions to be true to execute async processes:
 
 - https://www.npmjs.com/package/p-wait-for
 
-**Spinners**
+**Spinners/Loaders**
 
 - https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
 - http://npm.im/log-update
 - https://www.npmjs.com/package/cli-spinners
+- https://www.npmjs.com/package/progress-estimator remembers previous execution times, estimates them next time
 
 **Templating**
 
