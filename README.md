@@ -126,6 +126,7 @@ make sure to also normalize inputted stuff before you compare
 
 **Command execution**
 
+- https://npm.im/shelljs - xplatform shell command execution
 - https://github.com/IndigoUnited/node-cross-spawn
 - https://www.npmjs.com/package/execa (recommended)
   - execa best practices: 
