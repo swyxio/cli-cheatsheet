@@ -262,6 +262,8 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://www.npmjs.com/package/random-item for randomized selection from a list
 - https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics
 - https://www.npmjs.com/package/redact-env redact env var secrets
+- https://github.com/marionebl/svg-term-cli record terminal session as animated svg for docs
+
 
 ## Beginner Tutorials
 
