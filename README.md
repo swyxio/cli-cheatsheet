@@ -263,6 +263,7 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics
 - https://www.npmjs.com/package/redact-env redact env var secrets
 - https://github.com/marionebl/svg-term-cli record terminal session as animated svg for docs
+- https://github.com/sinclairzx81/zero for 3d animated scenes in the terminal (idk dont ask)
 
 
 ## Beginner Tutorials
