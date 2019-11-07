@@ -233,6 +233,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://www.npmjs.com/package/pacote (used in npm cli)
 - https://www.npmjs.com/package/gh-release-fetch (very low level pull from github)
 - https://www.npmjs.com/package/require-package-name (get package names as if local files were modules)
+- https://www.npmjs.com/package/semantic-release
 
 > ⚠️ None of these are offline-first. Keen on finding one that respects offline first.
 
