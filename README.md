@@ -82,6 +82,7 @@ For performance logging, you can try `process.htime()` instead of `console.time(
 
 - https://github.com/DavidWells/configorama
 - https://github.com/davidtheclark/cosmiconfig Find and load configuration from a package.json property, rc file, or CommonJS module. [Check `searchPaths` to implement XDG spec compliance.](https://github.com/davidtheclark/cosmiconfig/issues/152)
+  - replaces https://github.com/dominictarr/rc, an old rc-file finder with some different design choices
 
 *don't need but nice to know: https://www.npmjs.com/package/read-package-json*
 
@@ -161,6 +162,7 @@ You may also want to poll for conditions to be true to execute async processes:
 
 **Templating**
 
+- https://www.npmjs.com/package/copy-template-dir
 - https://www.npmjs.com/package/consolidate
 - https://www.npmjs.com/package/ejs (Gluegun has this built in)
 - https://www.npmjs.com/package/pupa (sindresorhus' templating)
@@ -168,11 +170,13 @@ You may also want to poll for conditions to be true to execute async processes:
 - https://www.npmjs.com/package/cpy (copy files using streams)
 - Mustache and handlebars https://www.npmjs.com/package/handlebars
 - Liquid templating (from Shopify) https://github.com/Shopify/liquid
-- https://github.com/amwmedia/plop
+- https://github.com/amwmedia/plop: "basically glue code between inquirer prompts and handlebar templates"
 - Angular Schematics https://angular.io/guide/schematics
 - Yeoman generator https://yeoman.io/
+  - specifically you can just use the filesystem commands https://yeoman.io/authoring/file-system.html
 
 **Temp folders**
+
 - https://www.npmjs.com/package/tempy (create unique temp directories)
 - https://www.npmjs.com/package/tmp (very popular. can remove on exit)
 
