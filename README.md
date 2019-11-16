@@ -270,6 +270,10 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://github.com/sinclairzx81/zero for 3d animated scenes in the terminal (idk dont ask)
 
 
+## Other useful lists
+
+- https://github.com/bcoe/awesome-cross-platform-nodejs
+
 ## Beginner Tutorials
 
 - https://www.twilio.com/blog/how-to-build-a-cli-with-node-js
