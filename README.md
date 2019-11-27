@@ -253,6 +253,11 @@ const prefixFlag = hasYarn() ? '--cwd' : '--prefix'
 spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 ```
 
+### Error Stacks/Error Handling
+
+- https://github.com/sindresorhus/clean-stack Removes the mostly unhelpful internal Node.js entries.
+- https://github.com/tapjs/stack-utils Captures and cleans stack traces
+
 ### Misc
 
 - https://npm.im/stmux for `tmux` like UI
