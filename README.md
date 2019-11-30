@@ -129,8 +129,8 @@ make sure to also normalize inputted stuff before you compare
 **Command execution**
 
 - https://npm.im/shelljs - xplatform shell command execution
-- https://github.com/IndigoUnited/node-cross-spawn
-- https://www.npmjs.com/package/execa (recommended)
+- https://npm.im/cross-spawn (also a cross platform solution to node's spawn and spawnSync)
+- https://npm.im/execa (recommended)
   - execa best practices: 
     - use `preferLocal: true`
     - try not to mix streams and promises. use `stdio: 'inherit'` to pipe stdout/stderr up
@@ -156,8 +156,9 @@ You may also want to poll for conditions to be true to execute async processes:
 
 - https://npm.im/ora (recommended)
 - https://www.npmjs.com/package/cli-ux#cliaction
-- http://npm.im/log-update
+- http://npm.im/log-update Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc.
 - https://www.npmjs.com/package/cli-spinners
+- https://npm.im/listr for progress lists
 - https://www.npmjs.com/package/progress-estimator remembers previous execution times, estimates them next time
 
 **Templating**
@@ -262,7 +263,6 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 ### Misc
 
 - https://npm.im/stmux for `tmux` like UI
-- https://npm.im/listr for progress lists
 - https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
 - https://github.com/jeroenouw/cgx Generate all the recommended files (pre-filled) for the Github community standards. (Issue templates, code of conduct, etc)
 - https://github.com/zeit/pkg#readme packaging as executable (so no requirement for node or npm)
