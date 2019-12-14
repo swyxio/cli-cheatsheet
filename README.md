@@ -228,6 +228,11 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 
 - https://www.npmjs.com/package/debug (note that you might not need this, Node's inbuilt [`util.debuglog`](https://nodejs.org/api/util.html#util_util_debuglog_section) does a lot of the same h/t [@stefanjudis](https://twitter.com/stefanjudis/status/1148232306735362056))
 - https://github.com/winstonjs/winston
+- https://github.com/pinojs/pino
+- https://github.com/klaussinani/signale
+- https://github.com/log4js-node/log4js-node
+- https://github.com/nuxt/consola
+- https://github.com/baryon/tracer
 - https://github.com/trentm/node-bunyan
 - [React Native CLI has very simple logging](https://github.com/react-native-community/cli/blob/3f116721eb30071b04a2957f8bd02a81954699de/packages/tools/src/logger.ts) with verbose mode you can still with just chalk dependency
 - In Github Issue Templates, tell your users to report versions: https://www.npmjs.com/package/envinfo
