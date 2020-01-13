@@ -69,6 +69,7 @@ For performance logging, you can try `process.htime()` instead of `console.time(
   - https://www.npmjs.com/package/glob (dominant)
   - https://www.npmjs.com/package/glob-fs
   - https://www.npmjs.com/package/file-regex
+  - https://github.com/pillarjs/path-to-regexp Turn a path string such as /user/:name into a regular expression.
 - Dependency resolution
   - https://www.npmjs.com/package/precinct
 
