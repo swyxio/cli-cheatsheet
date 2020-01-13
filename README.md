@@ -264,6 +264,7 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 
 - https://github.com/sindresorhus/clean-stack Removes the mostly unhelpful internal Node.js entries.
 - https://github.com/tapjs/stack-utils Captures and cleans stack traces
+- [node-cleanup](https://www.npmjs.com/package/node-cleanup) - add a callback for when Node is terminated
 
 ### Misc
 
@@ -279,6 +280,7 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://www.npmjs.com/package/redact-env redact env var secrets
 - https://github.com/marionebl/svg-term-cli record terminal session as animated svg for docs
 - https://github.com/sinclairzx81/zero for 3d animated scenes in the terminal (idk dont ask)
+- [node-cleanup](https://www.npmjs.com/package/node-cleanup) - add a callback for when Node is terminated
 
 
 ## Other useful lists
