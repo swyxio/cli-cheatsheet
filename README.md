@@ -231,6 +231,7 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://github.com/winstonjs/winston
 - https://github.com/pinojs/pino
 - https://github.com/klaussinani/signale
+- https://github.com/pimterry/loglevel
 - https://github.com/log4js-node/log4js-node
 - https://github.com/nuxt/consola
 - https://github.com/baryon/tracer
