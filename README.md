@@ -278,7 +278,7 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://github.com/netlify/netlify-dev-plugin/pull/227/files disable clearing of screen like with React-Scripts
 - https://github.com/DanWebb/jdown for parsing a directory of markdown files into json, just wonderful
 - https://www.npmjs.com/package/random-item for randomized selection from a list
-- https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics
+- https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics. see also https://github.com/lukeed/uuid
 - https://www.npmjs.com/package/redact-env redact env var secrets
 - https://github.com/marionebl/svg-term-cli record terminal session as animated svg for docs
 - https://github.com/sinclairzx81/zero for 3d animated scenes in the terminal (idk dont ask)
