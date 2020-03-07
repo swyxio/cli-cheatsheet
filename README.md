@@ -23,6 +23,8 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - [**arg**](https://github.com/zeit/arg): Built by [ZEIT](https://github.com/zeit), used by `now`, `ncc`, `micro`, `serve`, and many others. Key Feature: [tiny](https://packagephobia.now.sh/result?p=arg)
 - [**cac**](https://github.com/cacjs/cac): Built by [Egoist](https://github.com/egoist), used by `create-nuxt-app` and many others.
 
+> New: see CLUI https://blog.repl.it/clui
+
 ## Utility Libraries
 
 ### Performance Optimization
@@ -283,6 +285,9 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://github.com/marionebl/svg-term-cli record terminal session as animated svg for docs
 - https://github.com/sinclairzx81/zero for 3d animated scenes in the terminal (idk dont ask)
 - [node-cleanup](https://www.npmjs.com/package/node-cleanup) - add a callback for when Node is terminated
+
+
+> New: see CLUI https://blog.repl.it/clui
 
 
 ## Other useful lists
