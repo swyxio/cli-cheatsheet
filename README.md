@@ -275,6 +275,7 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 
 - https://github.com/lukejacksonn/servor zero dependency fileserver focused on SPA usecase
 - https://www.npmjs.com/package/serve general local fileserver utility
+- https://github.com/lukeed/sirv/tree/master/packages/sirv-cli lukeed's alternative to `serve`
 
 
 ### Misc
