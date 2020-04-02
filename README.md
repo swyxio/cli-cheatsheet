@@ -270,6 +270,13 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://github.com/tapjs/stack-utils Captures and cleans stack traces
 - [node-cleanup](https://www.npmjs.com/package/node-cleanup) - add a callback for when Node is terminated
 
+
+### Serving Files
+
+- https://github.com/lukejacksonn/servor zero dependency fileserver focused on SPA usecase
+- https://www.npmjs.com/package/serve general local fileserver utility
+
+
 ### Misc
 
 - https://npm.im/stmux for `tmux` like UI
