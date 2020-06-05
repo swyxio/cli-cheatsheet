@@ -20,7 +20,7 @@ helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs
 - [**Ink**](https://github.com/vadimdemedes/ink): Built by Vadim & Sindre. Key Feature: React Components and Yoga Layout. See also [import-jsx](https://npm.im/import-jsx)
 - [**Scritch**](https://github.com/jamiebuilds/scritch): Built by Jamie, used at Eventbrite. Key Feature: compose multiple scripts regardless of language into one CLI.
 - [**Yargs**](https://github.com/yargs/yargs): Built by [bcoe](https://github.com/bcoe), used by `webpack-cli`, `mocha`, `react-native`, `nyc`, and 14,343 other modules.
-- [**arg**](https://github.com/zeit/arg): Built by [ZEIT](https://github.com/zeit), used by `now`, `ncc`, `micro`, `serve`, and many others. Key Feature: [tiny](https://packagephobia.now.sh/result?p=arg)
+- [**arg**](https://github.com/vercel/arg): Built by [Vercel](https://github.com/vercel), used by `vercel`, `ncc`, `micro`, `serve`, and many others. Key Feature: [tiny](https://packagephobia.now.sh/result?p=arg)
 - [**cac**](https://github.com/cacjs/cac): Built by [Egoist](https://github.com/egoist), used by `create-nuxt-app` and many others.
 
 > New: see CLUI https://blog.repl.it/clui
@@ -283,7 +283,7 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://npm.im/stmux for `tmux` like UI
 - https://www.npmjs.com/package/cli-ux general Heroku CLI utils including OS notification
 - https://github.com/jeroenouw/cgx Generate all the recommended files (pre-filled) for the Github community standards. (Issue templates, code of conduct, etc)
-- https://github.com/zeit/pkg#readme packaging as executable (so no requirement for node or npm)
+- https://github.com/vercel/pkg packaging as executable (so no requirement for node or npm)
 - https://github.com/kefranabg/readme-md-generator generate READMEs
 - https://github.com/netlify/netlify-dev-plugin/pull/227/files disable clearing of screen like with React-Scripts
 - https://github.com/DanWebb/jdown for parsing a directory of markdown files into json, just wonderful
