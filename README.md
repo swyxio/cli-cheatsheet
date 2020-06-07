@@ -241,6 +241,8 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - [React Native CLI has very simple logging](https://github.com/react-native-community/cli/blob/3f116721eb30071b04a2957f8bd02a81954699de/packages/tools/src/logger.ts) with verbose mode you can still with just chalk dependency
 - In Github Issue Templates, tell your users to report versions: https://www.npmjs.com/package/envinfo
 
+You often also find specialized logger tools for each domain, like [@dazn/lambda-powertools-logger](https://www.npmjs.com/package/@dazn/lambda-powertools-logger) for AWS Lambda, but at their core they all support the core pattern of Log Levels `DEBUG`, `INFO`, `WARN` and `ERROR`.
+
 ### Plugin/Release Management
 
 - https://www.npmjs.com/package/live-plugin-manager
