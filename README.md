@@ -1,6 +1,8 @@
 # cli-cheatsheet
 helpful libraries and resources for *building* Node.js CLIs. Not [a list of CLIs](https://github.com/agarrharr/awesome-cli-apps).
 
+I put together a 90 minute Egghead.io [Course](https://egghead.io/courses/build-custom-cli-tooling-with-oclif-and-typescript?af=95qfq1) and [Workshop](https://github.com/sw-yx/egghead-cli-workshop/) on how to put these tools together, if you like video learning. I also make some money if you watch those videos if you want to help :)
+
 ## CLI Design Thinking
 
 - **12 Factor CLI Apps** ([Blogpost](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46), [Talk](https://www.youtube.com/watch?v=Izx3-KSuaM8)): Jeff Dickey's list of requirements for UX.
