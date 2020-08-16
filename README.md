@@ -24,6 +24,7 @@ I put together a 90 minute Egghead.io [Course](https://egghead.io/courses/build-
 - [**Yargs**](https://github.com/yargs/yargs): Built by [bcoe](https://github.com/bcoe), used by `webpack-cli`, `mocha`, `react-native`, `nyc`, and 14,343 other modules.
 - [**arg**](https://github.com/vercel/arg): Built by [Vercel](https://github.com/vercel), used by `vercel`, `ncc`, `micro`, `serve`, and many others. Key Feature: [tiny](https://packagephobia.now.sh/result?p=arg)
 - [**cac**](https://github.com/cacjs/cac): Built by [Egoist](https://github.com/egoist), used by `create-nuxt-app` and many others.
+- Pastel for React-ink
 
 > New: see CLUI https://blog.repl.it/clui
 
@@ -204,6 +205,7 @@ You may also want to poll for conditions to be true to execute async processes:
 - https://npm.im/tinycolor2 (some interesting APIs, handy with React Ink)
 - https://npm.im/log-symbols (colored xplatform unicode symbols for success/info/warning/error)
 - https://npm.im/figures (Unicode symbols with Windows CMD fallbacks)
+- https://npm.im/gradient-string VERY nice color gradient text
 
 Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/swyx/status/1166431071711498240) in CI logging.
 
@@ -212,6 +214,11 @@ Note that you may want to offer the option to [FORCE_COLOR](https://twitter.com/
 - https://npm.im/pretty-bytes
 - https://www.npmjs.com/package/prettyjson
 - https://www.npmjs.com/package/concordance
+
+there are also react based renderers
+
+- react ink
+- https://github.com/Yomguithereal/react-blessed
 
 **Boxing**
 
