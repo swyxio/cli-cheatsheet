@@ -298,6 +298,9 @@ spawn.sync(['install', prefixFlag, optionalDir], { stdio: 'inherit' })
 - https://github.com/kefranabg/readme-md-generator generate READMEs
 - https://github.com/netlify/netlify-dev-plugin/pull/227/files disable clearing of screen like with React-Scripts
 - https://github.com/DanWebb/jdown for parsing a directory of markdown files into json, just wonderful
+  - Other Markdown tools
+    - `gray-matter`
+    - `remark`
 - https://www.npmjs.com/package/random-item for randomized selection from a list
 - https://www.npmjs.com/package/uuid UUID for tagging a machine for analytics. see also https://github.com/lukeed/uuid
 - https://www.npmjs.com/package/redact-env redact env var secrets
