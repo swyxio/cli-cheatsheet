@@ -13,6 +13,7 @@ I put together a 90 minute Egghead.io [Course](https://egghead.io/courses/build-
 
 - **Add a dry run mode for expensive commands** like [gatsby dry-run](https://github.com/gatsbyjs/gatsby/issues/16384)
   
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line/blob/master/README.md) 
 ## Frameworks
 
 - [**Commander**](https://github.com/tj/commander.js/): Built by TJ, used in `create-react-app`, `vue-cli`, and many others. Key feature: pluggability. [**Vorpal**](https://github.com/dthree/vorpal) is another framework inspired by Commander and is seeking maintainers
