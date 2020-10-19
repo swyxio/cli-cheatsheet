@@ -198,6 +198,7 @@ You may also want to poll for conditions to be true to execute async processes:
   - also https://www.npmjs.com/package/make-dir
 - encrypt files: https://medium.com/@brandonstilson/lets-encrypt-files-with-node-85037bea8c0e
 - writing large files: https://www.npmjs.com/package/write-file-atomic
+- navigating node_modules using the same package npm uses: https://github.com/npm/arborist/
 
 **Icons & Coloring**
 
