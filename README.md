@@ -30,6 +30,8 @@ I put together a 90 minute Egghead.io [Course](https://egghead.io/courses/build-
 
 > New: see CLUI https://blog.repl.it/clui
 
+Inspiration from other languages - the http://charm.sh/ universe.
+
 ## Utility Libraries
 
 ### Performance Optimization
