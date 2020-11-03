@@ -239,7 +239,7 @@ there are also react based renderers
 
 **Banners**
 
-- https://github.com/patorjk/figlet.js
+- https://github.com/patorjk/figlet.js - helps sets width dependent on terminal size
 
 **Debug Logging**
 
