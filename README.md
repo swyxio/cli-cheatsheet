@@ -86,6 +86,7 @@ For performance logging, you can try `process.htime()` instead of `console.time(
 **Config validation**
 
 - https://github.com/hapijs/joi used by React Native CLI for validation
+- https://ajv.js.org/ https://twitter.com/ArrowoodTech/status/1324424901458120704
 - https://www.npmjs.com/package/jest-validate from Jest but not Jest specific
 
 **Loading config from json, rc file, etc***
