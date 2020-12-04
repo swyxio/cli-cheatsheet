@@ -9,7 +9,7 @@ I put together a 90 minute Egghead.io [Course](https://egghead.io/courses/build-
 
 - **Heroku CLI Style Guide** ([Guide](https://devcenter.heroku.com/articles/cli-style-guide), [Talk](https://www.youtube.com/watch?v=PHiDG-_XoRk), [Talk](https://www.youtube.com/watch?v=a6ud5MkVN_s)): Heroku's CLI Style Guide. 
 
-- **CLI Guidelines** ([Guide](https://clig.dev/)): An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.
+- **CLI Guidelines** ([Guide](https://clig.dev/), [Source](https://github.com/cli-guidelines/cli-guidelines)): An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.
 
 - **[The Poetics of CLI Command Names](https://smallstep.com/blog/the-poetics-of-cli-command-names/)**: Command naming anti-patterns and excellent names
 
