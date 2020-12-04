@@ -11,6 +11,8 @@ I put together a 90 minute Egghead.io [Course](https://egghead.io/courses/build-
 
 - **CLI Guidelines** ([Guide](https://clig.dev/)): An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.
 
+- **[The Poetics of CLI Command Names](https://smallstep.com/blog/the-poetics-of-cli-command-names/)**: Command naming anti-patterns and excellent names
+
 - **CLI State Machines** ([Gist](https://gist.github.com/sw-yx/3af1e264b8460af8897768045b2c229f)): My little thoughts on state management
 
 - **Add a dry run mode for expensive commands** like [gatsby dry-run](https://github.com/gatsbyjs/gatsby/issues/16384)
